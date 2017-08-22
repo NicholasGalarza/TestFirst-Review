@@ -1,5 +1,5 @@
 describe('Search', function () {
-        
+
 	it('operates on an array, takes a function and returns a boolean', function () {
 		var result = search.call([], function () {});
 		expect(result).toEqual(jasmine.any(Boolean));
